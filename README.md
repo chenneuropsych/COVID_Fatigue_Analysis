@@ -16,4 +16,4 @@ Includes files for preprocessing.
 Currently still WIP.
 1. nk2_feature_extraction. This is an exploratory file to visualize peak detection algorithms and participant data in general.
 2. feature_extraction_windows. This is the file that is extracting HRV features from BVP data using neurokit2. It also breaks the data into windows of various sizes and excludes invalid windows.
-3. 3. TsFresh. file to extract the 800 or so TsFresh statistical features, run on Amarel cluster.
+3. TsFresh. file to extract the 800 or so TsFresh statistical features, run on Amarel cluster.
