@@ -8,7 +8,7 @@ Includes two files for cleaning the two kinds of data.
 2. **Remote data** includes timestamp, BVP, EDA, TEMP, and accelerometer X, Y and Z components. TBA will add mindLAMP fatigue ratings.
 
 ## Data Preprocessing
-Includes files for preprocessing various variables: 
-1. Filtering and upsampling
-2. Motion artifact reduction of PPG data.
-3. Feature extraction
+Includes files for preprocessing.
+1. bvp_acc_filtering. This file uses chebyshev II and butterworth filters as well as upsamples the accelerometer data. Run this file before using the padasip code.
+2. Padasip_Filtering. This file runs the padasip adaptive filter to account for motion artifacts. 
+3. Feature extraction. This file is still WIP
