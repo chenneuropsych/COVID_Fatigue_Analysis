@@ -11,4 +11,3 @@ Includes two files for cleaning the two kinds of data.
 Includes files for preprocessing.
 1. bvp_acc_filtering. This file uses chebyshev II and butterworth filters as well as upsamples the accelerometer data. Run this file before using the padasip code.
 2. Padasip_Filtering. This file runs the padasip adaptive filter to account for motion artifacts. 
-3. Feature extraction. This file is still WIP
