@@ -18,11 +18,14 @@ Includes files for preprocessing.
 
 ## Feature Extraction
 1. nk2_feature_extraction. This is an exploratory file to visualize peak detection algorithms and participant data in general.
-2. feature_extraction_windows. This is the file that is extracting HRV features from BVP data using neurokit2. It also breaks the data into windows of various sizes and excludes invalid windows.
+2. feature_extraction_windows. This is the file that is extracting HRV features from BVP data using neurokit2. It also breaks the data into windows of various sizes and excludes invalid windows(see campanella paper).
 3. TsFresh. file to extract the 800 or so TsFresh statistical features, run on Amarel cluster.
 4. accuracy_rt. a file to calculate the accuracy and reaction time values by block, 30 second window, and 60 second window.
+5. HRV_visualization , file to visualise and find correlation amoing HRV features and fatigue levels.
+6. factor analysis, file on code for PHI data analysis, factor analysis and correlation plots .
 
 ## Models
 Preliminary code for training and testing different models to predict fatigue scores.
 1. DecisionTree_30seconds. development of decision tree for 30 second windowed data, as generated from the feature_extraction_windows file.
 2. DecisionTree_60seconds. development of decision tree for 60 second windowed data, as generated from the feature_extraction_windows file.
+3. Train_Test_Windows_Block. training on window data and testing on block data, also including randm forest model and feature importance calculations. This is the final experiment with these models.
