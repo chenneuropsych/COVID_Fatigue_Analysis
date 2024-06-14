@@ -29,3 +29,11 @@ Preliminary code for training and testing different models to predict fatigue sc
 1. DecisionTree_30seconds. development of decision tree for 30 second windowed data, as generated from the feature_extraction_windows file.
 2. DecisionTree_60seconds. development of decision tree for 60 second windowed data, as generated from the feature_extraction_windows file.
 3. Train_Test_Windows_Block. training on window data and testing on block data, also including randm forest model and feature importance calculations. This is the final experiment with these models.
+
+Pipeline: 
+![pipeline](https://github.com/chenneuropsych/COVID_Fatigue_Analysis/assets/30849030/bdb23881-219f-4a44-b674-f09505c169c6)
+
+1. bvp_acc_filtering.
+2. Padasip_Filtering.
+3. feature_extraction_windows.
+4. Train_Test_Windows_Block.
