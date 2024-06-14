@@ -23,6 +23,7 @@ Includes files for preprocessing.
 4. accuracy_rt. a file to calculate the accuracy and reaction time values by block, 30 second window, and 60 second window.
 5. HRV_visualization , file to visualise and find correlation amoing HRV features and fatigue levels.
 6. factor analysis, file on code for PHI data analysis, factor analysis and correlation plots .
+7. Generating_DeltaFeature.ipynb, generate delta fatigure ratings with respect to baseline, the rating actually used for train and test
 
 ## Models
 Preliminary code for training and testing different models to predict fatigue scores.
@@ -36,4 +37,5 @@ Pipeline:
 1. bvp_acc_filtering.
 2. Padasip_Filtering.
 3. feature_extraction_windows.
-4. Train_Test_Windows_Block.
+4. Generating_DeltaFeature.ipynb
+5. Train_Test_Windows_Block.
